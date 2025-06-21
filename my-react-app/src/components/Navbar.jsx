@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { FaDiscord, FaLinkedin } from 'react-icons/fa'
 import { HiMenu, HiX } from 'react-icons/hi'
-import { AnimatePresence } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
+
 
 const Navbar = () => {
   const location = useLocation()
